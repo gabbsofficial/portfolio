@@ -42,7 +42,7 @@ margin-left: 50px;
 }
 
 .vl {
-  border-left: 1px solid rgb(236, 162, 162);
+  border-left: 2px solid rgb(236, 162, 162);
   height: 1000px;
   position: absolute;
   left: 540px;
