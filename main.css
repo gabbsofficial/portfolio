@@ -16,8 +16,8 @@ h2 {
     margin-left: 50px;
 }
 
-#logo{
-     position: relative;
+.logo{
+    position: relative;
     width: 490px;
     margin-left: 25px;
     margin-top: -20px;
@@ -113,7 +113,7 @@ li{
     color: rgb(236, 162, 162);
 }
 
-#work{
+.work{
     width:510px;
     height: 380px;
     box-shadow: 3px 3px 6px rgb(236, 162, 162);
