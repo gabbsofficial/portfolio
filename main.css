@@ -16,6 +16,13 @@ h2 {
     margin-left: 50px;
 }
 
+#logo{
+     position: relative;
+    width: 490px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
 /* h3 {
     color: rgb(219, 65, 45);
     margin-left: 50px;
@@ -42,7 +49,7 @@ margin-left: 50px;
 }
 
 .vl {
-  border-left: 2px solid rgb(236, 162, 162);
+  border-left: 1px solid rgb(236, 162, 162);
   height: 1000px;
   position: absolute;
   left: 540px;
@@ -63,20 +70,51 @@ li{
     position: fixed;
 }
 
-.logo{
-    position: relative;
-    width: 490px;
-    margin-left: 25px;
-}
-
 .drag{
     cursor: grab;
 }
 
 .content{
+    display: flex;
     margin-left: 560px;
     margin-top:0px;
     width: 1080px;
-    height: 1000px;
-    background: darkred;
+    height: 2900px;
+    background: beige;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.items{
+    display:flex;
+    background-color: beige;
+    width: 1040px;
+    height: 390px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left{
+    background-color: beige;
+    width: 520px;
+    height: 380px;
+    margin: 5px;
+}
+
+.right{
+    background-color: beige;
+    width: 520px;
+    height: 380px;
+    margin: 5px;
+    color: rgb(236, 162, 162);
+}
+
+#work{
+    width:510px;
+    height: 380px;
+    box-shadow: 3px 3px 6px rgb(236, 162, 162);
 }
