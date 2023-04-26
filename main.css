@@ -74,6 +74,16 @@ li{
     cursor: grab;
 }
 
+.drag1{
+    width: 110px;
+    margin-left: 320px;
+}
+
+.drag2{
+    width: 150px;
+    margin-left: 200px;
+}
+
 .content{
     display: flex;
     margin-left: 560px;
@@ -117,14 +127,4 @@ li{
     width:510px;
     height: 380px;
     box-shadow: 3px 3px 6px rgb(236, 162, 162);
-}
-
-.drag1{
-    width: 110px;
-    margin-left: 320px;
-}
-
-.drag2{
-    width: 150px;
-    margin-left: 200px;
 }
