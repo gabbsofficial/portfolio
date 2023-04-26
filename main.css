@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 /* html{
@@ -80,7 +80,7 @@ li{
     margin-top:0px;
     width: 1080px;
     height: 2900px;
-    background: darkred;
+    background: beige;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ li{
 
 .items{
     display:flex;
-    background-color: pink;
+    background-color: beige;
     width: 1040px;
     height: 390px;
     margin: 10px;
