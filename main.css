@@ -80,7 +80,7 @@ li{
     margin-top:0px;
     width: 1080px;
     height: 2900px;
-    background: beige;
+    background: darkred;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ li{
 
 .items{
     display:flex;
-    background-color: beige;
+    background-color: pink;
     width: 1040px;
     height: 390px;
     margin: 10px;
