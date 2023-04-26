@@ -70,7 +70,7 @@ li{
     position: fixed;
 }
 
-.drag{
+.draggable{
     cursor: grab;
 }
 
@@ -117,4 +117,14 @@ li{
     width:510px;
     height: 380px;
     box-shadow: 3px 3px 6px rgb(236, 162, 162);
+}
+
+.drag1{
+    width: 110px;
+    margin-left: 190px;
+}
+
+.drag2{
+    width: 150px;
+    margin-left: 300px;
 }
